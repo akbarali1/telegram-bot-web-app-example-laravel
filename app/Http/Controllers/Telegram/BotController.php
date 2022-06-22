@@ -45,7 +45,10 @@ class BotController extends Controller
                 'inline_keyboard' => [
                     [
                         ['text' => 'Hello World!', 'web_app' => ['url' => 'https://bot.uzhackersw.uz/telegram/bot/shop']],
-                        ['text' => 'Bla bla!', 'web_app' => ['url' => 'https://uzhackersw.uz']],
+                        //                        ['text' => 'Bla bla!', 'web_app' => ['url' => 'https://uzhackersw.uz']],
+                    ],
+                    [
+                        ['text' => 'Questa.uz!', 'web_app' => ['url' => 'https://questa.uz']],
                     ],
                 ],
             ])
