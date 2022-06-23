@@ -41,7 +41,8 @@ class BotController extends Controller
             'HTML',
             false,
             null,
-            json_encode([
+            json_encode(
+                [
                 'inline_keyboard' => [
                     [
                         ['text' => 'Hello World!', 'web_app' => ['url' => 'https://bot.uzhackersw.uz/telegram/bot/shop']],
